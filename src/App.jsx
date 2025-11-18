@@ -154,7 +154,7 @@ function App() {
             >
                 <path
                     d='M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'
-                    fill='#000'
+                    fill='currentColor'
                 />
             </svg>
         )
@@ -320,7 +320,7 @@ function App() {
                         <div className='absolute top-2 right-4 w-2 h-2 bg-[#C41E3A] rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500 ease-out group-hover:scale-125'></div>
                         <div className='absolute bottom-2 left-6 w-1.5 h-1.5 bg-[#722F37] rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500 ease-out group-hover:scale-125'></div>
                         <div className='relative z-10 flex items-center gap-4'>
-                            <DeliveryIcon className='w-10 h-10 drop-shadow-lg' />
+                            <DeliveryIcon className='w-10 h-10 drop-shadow-lg text-black' />
                             <span className='text-2xl font-montserrat font-bold drop-shadow-lg'>
                                 Buyurtma berish
                             </span>
