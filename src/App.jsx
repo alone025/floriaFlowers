@@ -28,7 +28,7 @@ function App() {
     const address = "Kichik Halqa Yo'li, Toshkent, O'zbekiston"
     const coordinates = '41.339906° N, 69.208473° E'
     const mapLink =
-        'https://maps.apple.com/place?address=Small%20Ring%20Road,%20Tashkent,%20Uzbekistan&coordinate=41.339906,69.208473&name=Point&map=h'
+        'https://maps.google.com/maps?q=41.340043,69.208274&ll=41.340043,69.208274&z=16'
 
     const StarIcon = ({ className = 'w-8 h-8' }) => (
         <svg
